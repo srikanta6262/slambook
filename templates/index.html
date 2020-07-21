@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="zxx">
+
+<head>
+    <title>Slambook 2020</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Teens Hub Responsive web template, " />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- Custom Theme files -->
+    <link href="{% static "css/bootstrap.css" %}" type="text/css" rel="stylesheet" media="all">
+    <link href="{% static "css/style.css" %}" type="text/css" rel="stylesheet" media="all">
+    <!-- font-awesome icons -->
+    <link href="{% static "css/font-awesome.min.css" %}" rel="stylesheet">
+    <!-- //Custom Theme files -->
+    <!-- online-fonts -->
+    <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <!-- //online-fonts -->
+</head>
+
+<body>
+    <!-- banner -->
+    <section class="banner d-flex flex-column justify-content-center align-items-center">
+        <!-- header -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
+                <h1>
+                    <a class="navbar-brand" href="/first">
+                        SLAM BOOK
+                    </a>
+                </h1>
+                <button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+            </nav>
+        </header>
+
+        <!-- //header -->
+        <!-- banner text -->
+        <div class="container">
+            <div class="banner_text_wthree_pvt text-center">
+              {% if msg %}
+              <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>{{msg}}</strong>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      </div>
+              {% endif %}
+              {% if msg1 %}
+            	<div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>{{msg1}}</strong>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            	{% endif %}
+              {% if msg2 %}
+              <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>{{msg2}}</strong>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+              {% endif %}
+                <h3 class="home-banner-w3">Staying Connected To Your Friends </h3>
+
+                <div class="d-sm-flex justify-content-center">
+                    <button type="button" class="btn  w3ls-btn bg-theme" data-toggle="modal" aria-pressed="false"
+                        data-target="#exampleModal">Admin
+                    </button><a href="/task">
+                    <button type="button" class="btn  ml-2 w3ls-btn">FILL SLAMBOOK</button></a>
+
+                </div>
+            </div>
+        </div>
+        <!-- //banner text -->
+    </section>
+    <!-- //banner -->
+
+    <!-- explore-->
+    <div class="banner-section" id="explore">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="slider-container col-lg-12 mx-auto">
+                    <div class="w3ls-about-banner">
+                        <div class="callbacks_container">
+                            <ul class="rslides callbacks callbacks1 slider3">
+                                <li>
+                                    <div class="slide-img slide-img1">
+                                        <div class="banner-info">
+                                            <h3>I hope U ll Enjoy...</h3>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <div class="slide-img slide-img2">
+                                        <div class="banner-info">
+                                            <h3>Gayatri's Slambook</h3>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <div class="slide-img slide-img3">
+                                        <div class="banner-info">
+                                            <h3>Don't write Our
+                                                Secret Messages ok...</h3>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slider-right">
+                            <h3 class="title">Good Communication is one of the most important aspects to having a healthy Relationship.</h3>
+                            <p>A Good friend is like a four-leaf clover:
+                            Hard to find & Lucky to have.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--//explore-->
+
+
+    <!-- //blog -->
+    <!-- footer -->
+    <footer class="footer py-md-5 pt-md-3 pb-sm-5">
+        <div class="container-fluid">
+            <div class="row p-sm-4 px-3 py-5">
+                <div class="col-lg-4 col-md-6 footer-top mt-md-0 mt-sm-5">
+                    <h2>
+                        <a class="navbar-brand" href="index.html">
+                            Message For You:
+                        </a>
+                    </h2>
+                    <p class="my-3 text-white">Treat your life as a sea,
+                        Your Heart as seashore,
+                        and friends like waves.
+                        It never matters how many waves are there.
+                        What matters is how many waves,
+                        touched the SEASHORE.
+                        </p>
+                    <p class="text-white">
+                        I'm greateful to know you.
+                        And want to say thanks again For fillup My SLAMBOOK.
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-lg-0 mt-5">
+                    <div class="footerv2-w3ls">
+                        <h3 class="mb-3 w3f_title">Contact Me</h3>
+                        <hr>
+                        <div class="fv3-contact">
+                            <p>
+                                <a href="mailto:example@email.com">gayatrisahu2601@gmail.com</a>
+                            </p>
+                        </div>
+                        <div class="fv3-contact my-2">
+                            <p>7608864804</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- //footer bottom -->
+    </footer>
+    <!-- //footer -->
+    <!-- copyright -->
+    <div class="cpy-right text-center bg-theme">
+        <p class="text-white">© 2022 Slambook | Design by
+             Gayatri sahu.
+        </p>
+    </div>
+    <!-- //copyright -->
+
+    <!-- login  -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-white" id="exampleModalLabel">Admin</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="/verify/" method="post" class="p-3">
+                      {% csrf_token %}
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Username</label>
+                            <input type="text" class="form-control" placeholder="Your Name" name="Name" id="recipient-name"
+                                required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="col-form-label">Password</label>
+                            <input type="password" class="form-control" placeholder=" " name="Password" id="password"
+                                required="">
+                        </div>
+                        <div class="right-w3l">
+                            <input type="submit" class="form-control bg-theme1" value="Login">
+                        </div>
+
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //login -->
+
+    <!-- js -->
+    <script src="{% static "js/jquery-2.2.3.min.js" %}"></script>
+    <!-- //js -->
+    <!-- explore responsive slider -->
+    <script src="{% static "js/responsiveslides.min.js" %}"></script>
+    <script>
+        // You can also use "$(window).load(function() {"
+        $(function () {
+            // Slideshow 4
+            $(".slider3").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav:false,
+                speed: 500,
+                namespace: "callbacks",
+                before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
+
+        });
+    </script>
+    <!-- script for password match -->
+
+    <!-- script for password match -->
+    <!-- start-smooth-scrolling -->
+    <script src="{% static "js/move-top.js" %}"></script>
+    <script src="{% static "js/easing.js" %}"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script>
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+            };
+            */
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+  <script src="{% static "js/SmoothScroll.min.js" %}"></script>
+
+  <script src="{% static "js/bootstrap.js" %}"></script>
+  <script src="{% static "js/jquery-3.3.1.min.js" %}"></script>
+  <script src="{% static "js/jquery-migrate-3.0.1.min.js" %}"></script>
+  <script src="{% static "js/jquery-ui.js" %}"></script>
+  <script src="{% static "js/popper.min.js" %}"></script>
+</body>
+
+</html>
